@@ -1,64 +1,65 @@
-📌 Project Overview
+# 🚢 Titanic Survival Prediction using K-Nearest Neighbors (KNN)
 
-This project uses the K-Nearest Neighbors (KNN) algorithm to predict whether a passenger survived the Titanic disaster.
+## 📌 Project Overview
+This project predicts whether a passenger survived the Titanic disaster using the **K-Nearest Neighbors (KNN)** algorithm.
 
-The dataset used is from the famous Kaggle competition
+The dataset used in this project is from the Kaggle competition:
 Titanic - Machine Learning from Disaster
 
-This is a Binary Classification problem:
+Problem Type: **Binary Classification**
+- 0 → Did Not Survive
+- 1 → Survived
 
-0 → Did Not Survive
+---
 
-1 → Survived
+## 🧠 Algorithm Used
+- K-Nearest Neighbors (KNN)
+- Distance Metric: Euclidean Distance
+- Feature Scaling: StandardScaler
 
-🧠 Machine Learning Algorithm Used
+---
 
-K-Nearest Neighbors (KNN)
+## 📂 Dataset Features
 
-Distance Metric: Euclidean Distance
+### Input Features
+- `Pclass` – Passenger Class
+- `Sex` – Gender
+- `Age` – Age of Passenger
+- `Fare` – Ticket Fare
 
-Feature Scaling: StandardScaler
+### Target Variable
+- `Survived`
 
-📂 Dataset Information
+---
 
-Main features used:
+## ⚙️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
-Pclass
+---
 
-Sex
+## 🔄 Project Workflow
+1. Data Loading
+2. Data Cleaning (Handling Missing Values)
+3. Encoding Categorical Variables
+4. Feature Scaling
+5. Train-Test Split
+6. Model Training using KNN
+7. Model Evaluation
 
-Age
+---
 
-Fare
+## 📊 Model Evaluation
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
 
-Target variable:
+---
 
-Survived
+## ▶️ How to Run the Project
 
-⚙️ Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib (optional for visualization)
-
-🔄 Project Workflow
-
-Data Loading
-
-Data Cleaning (Handling Missing Values)
-
-Encoding Categorical Variables
-
-Feature Scaling
-
-Train-Test Split
-
-Model Training (KNN)
-
-Model Evaluation
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/Titanic-Survival-Prediction-KNN.git
